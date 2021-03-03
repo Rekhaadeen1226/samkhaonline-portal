@@ -1,0 +1,93 @@
+<!doctype html>
+<head>
+<title>login page</title>
+<link href="style.css" rel="stylesheet">
+<style>
+		body{
+		
+			border-color:white;
+			
+			padding-top:30px;
+			padding-left:100px;
+			padding-botom:400px;
+			cellpadding:30px;
+			cellspacing:30px:
+		}
+		  
+		  h1{
+					background-image:url(sr112.jpg);
+					background-size:cover;
+				  	border-color:red;
+					border-radius:2px;
+					border-style:solid;
+					margin-left:300px;
+					margin-right:300px;
+				  }
+		
+		  button{	
+			height:30px;
+			width:100px;	
+			background-color:red;	
+			animation-name:Sign up;
+			
+			
+				
+		}
+	@keyframes Sign up{
+						0%{background-color:blue;position:relative;top:100px;left:200px}
+						10%{background-color:lime;position:relative;top:60px;transform:ratate(-56deg)}
+						12%{background-color:gray;position:relative;transform:ratate(175deg)}
+				
+			}
+		  
+		  
+</style>
+
+</head>
+<body align="center">
+<br/>
+<br/>
+
+<br/>
+
+<br/>
+<legand>
+<form>
+<h2>REGISTRATION FORM</h2>
+<h1>
+ First name:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" value="" placeholder="enter your Firstname"> </br></br>
+Last name:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" value="" placeholder="enter your Lastname"> </br></br>
+Password:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="password" value="" placeholder="enter your password" maxlength="10" required> </br></br>
+Confirm Password:&nbsp&nbsp&nbsp<input type="password" value="" placeholder="enter your password" maxlength="10" required> </br></br>
+Mail :         &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="email" placeholder="enter your email address" required></br></br>
+Ph-no : 		  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="number" placeholder="enter your phone number" required></br/>
+Dob:  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="date">
+<fieldset>
+<legend align="center">Select your gender</legend>
+Gender:<input type="radio" name="gender" >Male
+<input type="radio" name="gender" >Female
+<input type="radio" name="gender" >Others
+</fieldset>
+<br/>
+select your state:<select name="state" id="state-select">
+    <option value="">--Please choose a state--</option>
+    <option value="hariyana">hariyana</option>
+    <option value="bihar">bihar</option>
+    <option value="goa">goa</option>
+    <option value="gujarat">gujarat</option>
+    <option value="karanataka">karnataka</option>
+    <option value="andra pradesh">andra pradesh</option>
+</select>
+<br/>
+Feedback:
+<br/>
+<textarea cols="70" rows="10"></textarea><br>
+
+<br>
+<button>Register</button>
+<button>Submit</button>
+</h1>
+</form>
+</legand>
+</body>
+</html>
